@@ -2,3 +2,6 @@ Grid is how we decompose our web page into 12.
 https://cssbuttons.io/
 https://getwaves.io/
 https://neumorphism.io/#e0e0e0
+
+Framework est un ensemble de libs
+lib offers you one service
