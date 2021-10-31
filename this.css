@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.space{
+    height: 100px;
+    width: 100%;
+}
+.mainsection{
+    height: 100vh;
+    width: 100%;
+    background-image: url(portfolioimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.owner{
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+}
+.profession{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.elementheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle1,.circle2,.circle3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.circle1{
+    background-image: url(circle1.jpg);
+}
+.circle2{
+    background-image: url(circle2.jpg);
+}
+.circle3{
+    background-image: url(circle3.jpg);
+}
+.tick{
+    position:relative;
+    top:5px;
+    fill:green;
+}
+.colorbutt{
+    background-color: #6f42c1 !important;
+}
+.container{
+    z-index: 2;
+}
+.more-information{
+    display: flex;
+    height: auto;
+    border-radius: 61px;
+    background: #f0f3ff;
+    box-shadow:  6px 6px 14px #dde0eb,
+                 -6px -6px 14px #ffffff;
+}
+.beauty{
+    height: auto;
+    width: 700px;
+    background-image: url(beauty.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 61px 0px 0px 61px;
+}
+.content{
+    padding-left: 10px;
+}
+.content ul{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
